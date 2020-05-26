@@ -1,0 +1,8 @@
+
+## OOP in Python
+- Class is like blueprint of the object. Based on that blueprint, we create our objects ( instance of a class) of that class.
+- When a Class is created, an object(let's say 'x') is also created with same name and give access to different attributes as well as we can
+   instantiate new objects.
+ - Creating new objects from that automatically created 
+    new_object = x()
+ - Method of an object is corresponding function of the class it belongs to.
