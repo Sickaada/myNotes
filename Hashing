@@ -1,0 +1,6 @@
+Along with numerous applications of Hashing, in the following article, we will study about constant time search.
+Yes, hashing searches with the time complexity of O(1) .
+A hash table is created where our items are stored after applying hash function.
+The size of hash table is generally taken to be a prime number. The reason is it creates a probablity biasing. Read the following link- https://cs.stackexchange.com/questions/11029/why-is-it-best-to-use-a-prime-number-as-a-mod-in-a-hashing-function
+What's our Hash function ? </br>
+
