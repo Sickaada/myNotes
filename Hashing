@@ -1,6 +1,18 @@
-Along with numerous applications of Hashing, in the following article, we will study about constant time search.
-Yes, hashing searches with the time complexity of O(1) .
+we will study about constant time search (O(1)) using hashing.
 A hash table is created where our items are stored after applying hash function.
-The size of hash table is generally taken to be a prime number. The reason is it creates a probablity biasing. Read the following link- https://cs.stackexchange.com/questions/11029/why-is-it-best-to-use-a-prime-number-as-a-mod-in-a-hashing-function
-What's our Hash function ? </br>
+The size of hash table is generally taken to be a prime number. The reason is if we don't take it will create a probablity biasing or clustering. Read the following link- </br>
+https://cs.stackexchange.com/questions/11029/why-is-it-best-to-use-a-prime-number-as-a-mod-in-a-hashing-function
 
+What is a good hash function? </br>
+1. Uniform distribution of hash values
+2. Minimum collision
+3. Easy to compute the hash value
+  
+
+What's our Hash function ? </br>
+let's consider the following data for the our further concept:-</br>
+  our data structure, a = [22,45,65,89]
+  size of hash table, m = 11 (say) (* it's a prime number)
+  
+It is "remainder method" . In this method, we return the remainder as hash value, i.e { a[i] % m }. If the result turns out to be "x", then x is stored in slot of a[i] in hash table.
+To need to search for any a[i], we will compute the slot name and check the hash table to see if its present.
