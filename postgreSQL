@@ -1,0 +1,12 @@
+###Commands
+\du ----> Show all users
+\l ----> Show all dbs
+CREATE USER username; ----> Creates a user
+DROP username; ----> Deletes user
+SCHEMA --> It is a encapsulated  object will hold a bunch of tables which are somewhat related to each other.
+\c database name ----> It will change one database to another without leaving psql shell.
+CREATE SCHEMA schemaname ---->
+CREATE TABLE schemaname.tablename(attirbutes) ---> Will create a table in that schema
+SELECT * FROM schemaname.tablename ----> Will show the whole table
+\d database name ----> will describe that database for us.
+INSERT INTO schemaname.tablename VALUES(attributes); ----> register into table
