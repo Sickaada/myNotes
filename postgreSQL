@@ -10,3 +10,5 @@ CREATE TABLE schemaname.tablename(attributes) ---> Will create a table in that s
 SELECT * FROM schemaname.tablename ----> Will show the whole table
 \d database name ----> will describe that database for us.
 INSERT INTO schemaname.tablename VALUES(attributes); ----> register into table
+GRANT CONNECT ON DATABASE my_db TO my_user --> granting privileges to user "my_user".
+## Initiating postgres as db in Django -- https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04
