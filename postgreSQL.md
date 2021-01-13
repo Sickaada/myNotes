@@ -1,6 +1,6 @@
 ### Commands
 
-\du ----> Show all users
+\du ----> Show all users \n
 \l ----> Show all dbs
 CREATE USER username; ----> Creates a user
 DROP username; ----> Deletes user
