@@ -1,4 +1,5 @@
-###Commands
+### Commands
+
 \du ----> Show all users
 \l ----> Show all dbs
 CREATE USER username; ----> Creates a user
